@@ -1,0 +1,89 @@
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+.top-info {
+  width: 100%;
+  display: flex;
+  margin-top: 5vh;
+}
+.top-info img {
+  width: 50%;
+  margin-left: 5vw;
+}
+.top-info-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.top-info-right-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.movie-title {
+  color: white;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+.movie-year {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+}
+.overview-title {
+  color: white;
+  font-size: 30px;
+  margin-left: 2vw;
+
+  font-style: normal;
+  font-weight: 700;
+}
+.movie-overview {
+  color: white;
+
+  word-break: break-word;
+  width: 761px;
+  height: 85px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 2vw;
+}
+.score-square {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(61, 61, 61);
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(243, 63, 63);
+  align-items: center;
+  justify-content: center;
+  margin-left: 2vw;
+}
+.score-title {
+  color: white;
+  font-size: 20px;
+
+  height: max-content;
+}
+.score {
+  color: rgb(243, 63, 63);
+  font-size: 30px;
+  height: max-content;
+
+  font-weight: 700;
+}
+.genera {
+  color: white;
+}
+@media screen and (max-width: 950px) {
+  .top-info {
+    flex-direction: column;
+    align-items: center;
+  }
+}

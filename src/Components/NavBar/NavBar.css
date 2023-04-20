@@ -1,0 +1,136 @@
+@media only screen and (max-width: 600px) {
+  .NavBar {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+
+    top: 0;
+    z-index: 2;
+  }
+  .navIcons {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    border: 1px;
+  }
+  .navIcons:hover {
+    border-radius: 360px;
+    border: 1px solid gray;
+    background-color: gray;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .NavBar {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+
+    top: 0;
+    z-index: 2;
+  }
+  .navIcons {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+  .navIcons:hover {
+    border-radius: 360px;
+    border: 1px solid gray;
+    background-color: gray;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .NavBar {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: width 0.2s ease-in;
+    position: fixed;
+
+    top: 0;
+    z-index: 2;
+  }
+  .navIcons {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+  .navIcons:hover {
+    border-radius: 360px;
+    border: 1px solid gray;
+    background-color: gray;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .NavBar {
+    background-color: rgba(29, 29, 29, 0.5);
+    transition: width 0.2s ease-in;
+    width: 3vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    padding: 16px;
+    position: fixed;
+
+    left: 0;
+    z-index: 2;
+  }
+  .navIcons {
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: border-radius 1s ease-in;
+  }
+  .navIcons:hover {
+    border-radius: 360px;
+    border: 1px solid gray;
+    background-color: gray;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .NavBar {
+    background-color: rgba(29, 29, 29, 0.5);
+    position: fixed;
+    width: 3vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    padding: 16px;
+
+    left: 0;
+    z-index: 2;
+  }
+  .navIcons {
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: border-radius 1s ease-in;
+  }
+  .navIcons:hover {
+    border-radius: 360px;
+    border: 1px solid gray;
+    background-color: gray;
+  }
+}

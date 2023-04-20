@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(29, 29, 29);
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

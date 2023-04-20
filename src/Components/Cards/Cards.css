@@ -1,0 +1,17 @@
+.Cards {
+  width: 292px;
+  height: 440px;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 10px;
+  transition: all 0.5s;
+}
+.Cards:hover {
+  transform: scale(1.2);
+}
+.card-title {
+  color: white;
+  background-color: rgba(29, 29, 29, 0.5);
+}

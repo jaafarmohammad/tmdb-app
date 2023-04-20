@@ -1,0 +1,142 @@
+.home {
+  width: 100%;
+  height: 100%;
+  justify-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.home-logic {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.heroContainer {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.trending-header {
+  color: white;
+  margin-left: 100px;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+@media only screen and (min-width: 1200px) {
+  .home {
+    width: 100%;
+    height: 100%;
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-logic {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .heroContainer {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .trending-header {
+    color: white;
+    margin-left: 100px;
+  }
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .home {
+    width: 100%;
+    height: 100%;
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-logic {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .heroContainer {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .trending-header {
+    color: white;
+    margin-left: 100px;
+  }
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .home {
+    width: 100%;
+    height: 100%;
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-logic {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .heroContainer {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .trending-header {
+    color: white;
+  }
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+}
